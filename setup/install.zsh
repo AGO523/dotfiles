@@ -2,7 +2,7 @@
 
 # clone repository
 if [[ ! -e ${HOME}/.dotfiles ]]; then
-  git clone https://github.com/otaaaa/dotfiles.git ${HOME}/.dotfiles
+  git clone https://github.com/AGO523/dotfiles.git ${HOME}/.dotfiles
 else
   git -C ${HOME}/.dotfiles pull
 fi
